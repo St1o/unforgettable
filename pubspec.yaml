@@ -1,0 +1,32 @@
+name: my_flutter_app
+description: >
+  Приложение на Flutter для работы с картой, алгоритмом A* с элементами
+  машинного обучения и управлением состоянием с помощью BLoC.
+publish_to: "none" # Этот пакет не предназначен для публикации на pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.0
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  google_maps_flutter: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
