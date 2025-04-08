@@ -11,6 +11,9 @@ import 'country_codes.dart';
 import 'hive_adapters.dart';
 import 'app_styles.dart';
 
+// Подключение API-ключей для Google Maps. Используйте ваш API-ключ
+const String googleMapsApiKey = 'Ri4R2lnFbHS2u4wFoD6ilrejOFpQ1hdP6MGBK1x';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
